@@ -23,6 +23,10 @@ transition_screen="*res://tiny_sword_demo/interface/transition/transition_screen
 
 window/stretch/mode="canvas_items"
 
+[dotnet]
+
+project/assembly_name="godot_seven_days"
+
 [input]
 
 move_left={
