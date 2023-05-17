@@ -14,10 +14,6 @@ config/name="Aulona"
 config/features=PackedStringArray("4.0", "Mobile")
 config/icon="res://icon.svg"
 
-[dotnet]
-
-project/assembly_name="Aulona"
-
 [rendering]
 
 renderer/rendering_method="mobile"
