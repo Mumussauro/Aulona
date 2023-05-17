@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://djog3otdsi64b"]
+
+[ext_resource type="Script" path="res://nível.gd" id="1_bw6o5"]
+[ext_resource type="PackedScene" uid="uid://cfwk0p2dnnxe0" path="res://burim.tscn" id="1_wrcu7"]
+[ext_resource type="Texture2D" uid="uid://bmj82cw8lmkve" path="res://icon.svg" id="2_wfhvj"]
+
+[node name="Nível" type="Node2D"]
+script = ExtResource("1_bw6o5")
+
+[node name="Burim" parent="." instance=ExtResource("1_wrcu7")]
+position = Vector2(253, 158)
+
+[node name="Sprite2D" type="Sprite2D" parent="Burim"]
+texture = ExtResource("2_wfhvj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Burim"]
+
+[node name="Burim2" parent="." instance=ExtResource("1_wrcu7")]
+position = Vector2(281, 158)
